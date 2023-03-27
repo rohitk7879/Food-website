@@ -1,0 +1,236 @@
+*{
+    margin: 0px;
+    font-family: 'Mulish', sans-serif;
+}
+.nav-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    
+    box-shadow: 0px 0.5px 5px lightgray; 
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 10;
+}
+.left{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15.5px 30px;
+    gap: 40px;
+    font-size: 14px;
+
+}
+.other:hover{
+    color: #fc8323;
+}
+.arrow{
+    color: #fc8323;
+}
+.left a{
+    color: black;
+}
+.location{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.right{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 30px;
+    gap: 50px;
+    
+}
+.right > div{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: 16px;
+}
+.icons{
+    font-size: 18px !important;
+}
+
+
+.nav-container1{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;     
+    margin-top: 80px;
+    border-bottom: 0.5px solid lightgray;
+    padding: 30px 10px 10px 10px;
+    
+}
+
+.nav-container1 > .right1{
+    display: flex;
+    gap: 30px;
+    
+}
+.container{
+    width: 95vw;
+    margin: auto;
+    padding-bottom: 20px;
+    
+    
+}
+
+.card{
+    width: 250px;
+    padding: 20px 20px 0px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    position: relative;
+    /* background-color: #f3f4f4; */
+    
+    
+}
+.image{
+    width: 250px;
+    height: 160px;
+    
+}
+.content{
+    font-size: 14px;
+}
+
+.rating{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    border-bottom: 0.5px solid lightgray;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.rate{
+    display: flex;
+    align-items: center;
+    background-color: #db7c38;
+    color: white;
+    padding: 2px;
+    gap: 2px;
+    font-size: 13px;
+    
+}
+.star{
+    font-size: 13px !important;
+}
+.bullet{
+    width: 5px;
+    height: 5px;
+    background-color: black;
+    border-radius: 50%;
+}
+.offer{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 10px;
+    /* margin-top: 5px; */
+    font-size: 14px;
+    color: #8a584b;
+    border-bottom: 0.5px solid lightgray;
+    padding-top: 5px;
+    padding-bottom: 5px;
+     
+}
+button{
+    display: block;
+    margin-top: 5px auto;
+    border: none;
+    color: #5d8ed5;
+    padding: 10px 0px;
+    width: 250px;
+    background-color: white;
+    visibility:hidden ;
+    font-weight: bold;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    align-items: center;
+    margin-top: 20px;
+    background-color: #ffffff;
+    
+    
+}
+.card:hover{
+    outline: 0.5px solid lightgray;
+}
+.card:hover button{
+    visibility: visible;
+}
+.card::before{
+    content: 'PROMOTED';
+    display: block;
+    background-color: #3a3c41;
+    color: white;
+    position: absolute;
+    top: 20px;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: black;
+    padding: 40px;
+    width: 100vw;
+    /* padding: 80px; */
+    /* justify-content: space-between; */
+   
+}
+.footer > div > b{
+     color: #80807e;
+     
+     font-size: 16px;
+}
+
+.footer > div{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 15px;
+    
+}
+.footer > div > a{
+    color: white;
+    text-decoration: none;
+    font-weight: 300px;
+    
+}
+.footer > div > a:hover{
+    font-weight: bold;
+}
+
+.footer  img{
+    width: 150px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    transition-duration: 0.2s;
+
+}
+.footer img:hover{
+    width: 160px;
+}
+.store{
+    align-items: center;
+}
+
